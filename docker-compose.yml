@@ -1,0 +1,13 @@
+services:
+  backend:
+    container_name: backend
+    build: .
+    command: python main.py
+    ports:
+      - "8000:8000"
+    networks:
+      - gamejam_network
+
+networks:
+  gamejam_network:
+    driver: bridge
