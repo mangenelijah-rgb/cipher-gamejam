@@ -1,6 +1,6 @@
 services:
-  backend:
-    container_name: backend
+  site:
+    container_name: site
     build: .
     command: python main.py
     ports:
