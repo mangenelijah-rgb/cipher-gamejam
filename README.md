@@ -1,2 +1,2 @@
 # cipher-gamejam
-Functionality for cloud-based virtual machine to store, run, and rate executable games in web browser. Includes a system for login- maybe ccu credentials?
+Website for users to upload, play, and rate games for a gamejam event. Uses dockerized flask app to host the website. 
